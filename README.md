@@ -31,7 +31,7 @@ The project follows a professional-grade pipeline to ensure data integrity and v
 * `/data`: (Optional) The raw source file: `ecommerce_transactions.csv`.
 
 ## 📊 Live Dashboard
-[Link to your Looker Studio Dashboard Here]
+(https://lookerstudio.google.com/reporting/5febc44d-5bff-4e87-a024-42769841ca04)
 
 ---
 *Note: This project includes a "View SQL" feature in the dashboard header, linking directly back to the code in this repository to ensure full transparency of the data logic.*
