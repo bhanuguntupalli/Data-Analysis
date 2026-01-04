@@ -2,36 +2,30 @@
 
 # E-commerce Sales Analysis: Modern Data Stack Portfolio
 
-## 📌 Project Overview
-This project demonstrates an end-to-end data pipeline using the **Google Cloud Platform (GCP)** and the **Modern Data Stack** architecture. I transformed raw, unorganized e-commerce transaction data into a professional, interactive dashboard to drive business insights regarding customer demographics, regional sales, and product performance.
+Project Overview
+This project uses Google Cloud Platform to construct an end-to-end data pipeline. In order to examine consumer demographics, local sales, and product success, converted raw transaction data into an interactive dashboard.
 
-## 🏗️ The Data Architecture
-The project follows a professional-grade pipeline to ensure data integrity and version control:
-1. **Data Ingestion:** Raw CSV data was hosted in a **Google Cloud Storage (GCS)** bucket.
-2. **Data Warehousing:** The data was loaded into **BigQuery**, where I structured the schema and optimized data types.
-3. **Logic & Transformation (SQL):** I wrote a specialized cleaning query to handle data types, rename columns for consistency, and perform feature engineering (e.g., creating age brackets).
-4. **Version Control:** All SQL transformation logic is version-controlled here in this **GitHub** repository.
-5. **Visualization:** The final "Gold" layer of data was connected to **Looker Studio** via a Custom Query to power the live dashboard.
+Architecture of Data
+To guarantee data integrity, the pipeline adheres to a professional-grade architecture:
+  1. Ingestion: For expert data lake management, raw CSV files were stored in Google Cloud Storage.
+  2. Warehousing: Optimized schemas and data types were used to load data into BigQuery.
+  3. Logic Layer: To rename columns and engineer new features like customer age brackets, created a SQL cleaning function.
+  4. Version Control: This GitHub repository's transformation mechanism is all version-controlled.
+  5. Visualization: To power the live dashboard, a Custom Query connects the clean data layer to Looker Studio.
 
-## 🛠️ Tech Stack
-* **Cloud Storage:** Google Cloud Storage (Data Lake)
-* **Data Warehouse:** Google BigQuery
-* **Language:** SQL (BigQuery Standard SQL)
-* **Version Control:** GitHub
-* **BI Tool:** Looker Studio
+The Tech Stack: Google Cloud Storage, Google BigQuery Warehouse, SQL, GitHub, Looker Studio
 
-## 🔍 Key Business Insights
-* **Demographics:** Analyzed high-value customer segments by creating custom age groups (e.g., 18-34, 35-54).
-* **Regional Performance:** Identified top-performing countries by total purchase volume.
-* **Category Trends:** Tracked which product categories (Clothing, Electronics, etc.) drive the most revenue.
-* **Payment Preferences:** Evaluated the most popular payment methods to help optimize checkout experiences.
+Business insights: Identified high-value categories using engineered age groupings.
 
-## 📂 Project Structure
+Geographically, the top-performing countries were visualized based on purchasing volume.
+
+Categories: Revenue drivers were tracked across product categories such as electronics and clothing.
+
+Project Structure
 * `/sql`: Contains the [cleaning_query.sql](sql/cleaning_query.sql) used to transform the raw data.
 * `/data`: (Optional) The raw source file: `ecommerce_transactions.csv`.
 
-## 📊 Live Dashboard
+Live Dashboard
 (https://lookerstudio.google.com/reporting/5febc44d-5bff-4e87-a024-42769841ca04)
 
----
-*Note: This project includes a "View SQL" feature in the dashboard header, linking directly back to the code in this repository to ensure full transparency of the data logic.*
+
