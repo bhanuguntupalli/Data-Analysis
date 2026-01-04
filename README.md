@@ -2,11 +2,11 @@
 
 # E-commerce Sales Analysis: Modern Data Stack Portfolio
 
-Project Overview
+Project Overview:
 This project uses Google Cloud Platform to construct an end-to-end data pipeline. In order to examine consumer demographics, local sales, and product success, converted raw transaction data into an interactive dashboard.
 
 Architecture of Data
-To guarantee data integrity, the pipeline adheres to a professional-grade architecture:
+
   1. Ingestion: For expert data lake management, raw CSV files were stored in Google Cloud Storage.
   2. Warehousing: Optimized schemas and data types were used to load data into BigQuery.
   3. Logic Layer: To rename columns and engineer new features like customer age brackets, created a SQL cleaning function.
